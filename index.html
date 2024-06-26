@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Simple Ecommerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+    <!-- Header  Section -->
+        <nav class="headerElem">
+          <script src="header.js"></script>
+      </nav>
+     
+    <!-- Header Section End -->
+
+
+ <!-- Banner Section -->
+
+ <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banners/2.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banners/1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/banners/3.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Banner Section End -->
+
+
+    <!-- cards Section -->
+     <section>
+      <div class="container">
+        <div id="productContainer" class="row gap-3 p-4 container">
+
+        </div>
+      </div>
+     </section>
+
+
+
+
+     <!-- Product template Card -->
+      <template id="productTemplate">
+        <div class="card cards py-4" id="cardsValue" style="width: 15rem;">
+          <span class="category"></span>
+          <img class="productImage" src="" class="card-img-top" alt="">
+          <div class="card-body">
+              <article class="information [card]">
+                  <h2 class="productName"></h2>
+                  <p class="productDescription"></p>
+                  <div class="priceElement">
+                    <h4 class="productPrice"></h4>
+                    <h4 class="productActualPrice"></h4>
+                  </div>
+                    <div class="productQuantityElement">
+                      <p class="productStock"></p>
+                      <div class="stockElement">
+                        <button class="cartIncriment">+</button>
+                        <p class="productQuantity">1</p>
+                        <button class="cartDecrement">-</button>
+                      </div>
+                    </div>
+                    <a href="#" class="btn btn-warning bold-btn add-to-cart-button"> <i class="fa-solid fa-cart-shopping"></i> add to cart</a>
+              </article>
+          </div>
+        </div>
+      </template>
+
+
+<footer>
+  <div class="container-fluid">
+    <h5>@All copyrights Reserved Ecommerce</h5>
+  </div>
+</footer>
+
+<!-- it shows import module error so we are using type module in main.js  -->
+<!-- <script type="module" src="banner.js"></script> -->
+      <script type="module" src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>

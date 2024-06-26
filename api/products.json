@@ -1,0 +1,111 @@
+[
+    {
+        "id" : 1,
+        "image" : "https://m.media-amazon.com/images/I/71wF7YDIQkL._AC_SL1500_.jpg",
+        "category" : "computer",
+        "name" : "laptop",
+        "price" : 999,
+        "description" : "Razer Blade 15 Base Gaming Laptop 2020: Intel Core i7-10750H 6-Core.",
+        "stock" : 10
+    },
+    {
+        "id" : 2,
+        "image" : "https://img.freepik.com/free-psd/three-dimensional-image-mobile-phone_53876-1606.jpg?size=626&ext=jpg&ga=GA1.1.836438268.1718166430&semt=ais_user",
+        "category" : "mobile",
+        "name" : "mobile",
+        "price" : 299,
+        "description" : "Iphone 6 15 Base Gaming Mobile 2020: Intel Core i7-10750H 6-Core.",
+        "stock" : 20
+    },
+    {
+        "id" : 3,
+        "image" : "https://img.freepik.com/premium-photo/white-headphones-white-background-front-view-3d-rendering_187882-2883.jpg",
+        "category" : "headphone",
+        "name" : "head phone",
+        "price" : 100,
+        "description" : "Head phone 15 Base Head Phone 2020: Intel Core i7-10750H 6-Core.",
+        "stock" : 10
+    },
+    {
+        "id" : 4,
+        "image" : "https://m.media-amazon.com/images/I/71xCt+1NJQL.jpg",
+        "category" : "radio",
+        "name" : "radio",
+        "price" : 500,
+        "description" : "Experience crystal-clear sound with our top-rated radios, perfect for any setting!",
+        "stock" : 10
+    },
+    {
+        "id" : 5,
+        "image" : "./images/watch.png",
+        "category" : "watch",
+        "name" : "watch",
+        "price" : 299,
+        "description" : "Discover timeless elegance and precision with our exclusive collection of watches!",
+        "stock" : 10
+      },
+      {
+        "id" : 6,
+        "image" : "./images/mobile.png",
+        "category" : "mobile",
+        "name" : "mobile",
+        "price" : 10000,
+        "description" : "Mobile phone 15 Base Head Phone 2020: Intel Core i7-10750H 6-Core.",
+        "stock" : 10
+      },
+      {
+        "id" : 7,
+        "image" : "./images/chair.png",
+        "category" : "chair",
+        "name" : "chair",
+        "price" : 599,
+        "description" : "Unwind in style and comfort with our expertly crafted chairs, designed for every space!",
+        "stock" : 10
+      },
+      {
+        "id" : 8,
+        "image" : "./images/book.png",
+        "category" : "Books",
+        "name" : "Books",
+        "price" : 99,
+        "description" : "Unlock new adventures and expand your mind with our diverse, captivating book collection!",
+        "stock" : 10
+      },
+      {
+        "id" : 9,
+        "image" : "./images/laptop.png",
+        "category" : "computer",
+        "name" : "computer",
+        "price" : 2900,
+        "description" : "Power your productivity and  our high-performance, versatile laptop.",
+        "stock" : 10
+      },
+      {
+        "id" : 10,
+        "image" : "./images/shirt.png",
+        "category" : "shirt",
+        "name" : "shirt",
+        "price" : 299,
+        "description" : "Elevate your style with our fashionable shirts, perfect for any occasion!",
+        "stock" : 10
+      },
+      {
+        "id" : 11,
+        "image" : "./images/handbag.png",
+        "category" : "hand bag",
+        "name" : "hand bag",
+        "price" : 500,
+        "description" : "Carry elegance everywhere with our chic and functional handbags!",
+        "stock" : 10
+      },
+      {
+        "id" : 12,
+        "image" : "./images/pot.png",
+        "category" : "pot",
+        "name" : "pot",
+        "price" : 169,
+        "description" : "Enhance your cooking with our durable, stylish pots, perfect for every culinary creation!",
+        "stock" : 10
+      }  
+   
+]

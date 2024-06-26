@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Thapa Ecommerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+    
+    <!-- Header  Section -->
+    <nav class="headerElem">
+      <script src="header.js"></script>
+  </nav>
+ 
+<!-- Header Section End -->
+
+
+    <!-- cart section -->
+     <section class="addToCartElement">
+        <div class="container">
+
+            <section>
+                <div id="productCartContainer">
+              
+                </div>
+            </section>
+
+            <section>
+                <div id="productCartTotalElem">
+                    <div id="productcartTotalElement">
+                        <p>Selected Offer Summary</p>
+                        <div id="productOrderTotal">
+
+                            <div class="sub-total-box">
+                            <p>Subtotal : </p>
+                            <div id="productSubTotal">0</div>
+                        </div>
+
+                        <div class="sub-total-box">
+                            <p>Tax : </p>
+                            <p id="productTax">50</p>
+                        </div>
+
+                        <hr>
+                        <div class="sub-total-box">
+                            <p>Total : </p>
+                            <p id="productFinalTotal">0</p>
+                        </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+        </div>
+     </section>
+
+
+
+     <!-- template -->
+      <template id="productCartTemplate">
+        <div class="cards" id="cardValue">
+          <article class="information2 [ card2 ]">
+
+            <div class="cart-category">
+              <span class="category"></span>
+            </div>
+
+            <div class="imageContainer cart-img-container">
+              <img class="productImage" src="" alt="">
+            </div>
+
+            <h2 class="productName cart-product-name"></h2>
+
+            <p class="productPrice"></p>
+
+            <div class="stockElement cart-incri-box">
+              <button class="cartIncriment">+</button>
+              <p class="productQuantity">1</p>
+              <button class="cartDecrement">-</button>
+            </div>
+
+            <a href="#" class="btn btn-warning bold-btn remove-to-cart-button cart-page-btn"> <i class="fa-solid fa-trash"></i> Remove</a> 
+
+          </article>
+
+        </div>
+      </template>
+
+
+<!-- it shows import module error so we are using type module in main.js  -->
+      <script type="module" src="main.js"></script>
+      <script type="module" src="showAddToCartCards.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" ></script>
+  </body>
+</html>
