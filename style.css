@@ -293,3 +293,7 @@ footer{
 .addToCartElement{
   padding-top: 80px;
 }
+
+.container, .container-sm {
+    max-width: 100%!important;
+}
