@@ -1,4 +1,4 @@
-**Ecommerce-Psd Landing Page**
+**Ecommerce Landing Page**
 
 🌟 **Landing Page** 🌟
 
