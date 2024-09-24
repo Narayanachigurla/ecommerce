@@ -4,7 +4,7 @@
 
 🎯 **Objective:** Capture leads, showcase product features, and drive user engagement.
 
-**Landing Page URL:** https://narayanachigurla.github.io/Ecommerce
+**Landing Page URL:** https://narayanachigurla.github.io/ecommerce
 
 ### ✨ Features
 
